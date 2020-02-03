@@ -12,6 +12,7 @@
     <repo>https://github.com/mircoc/cordova-plugin-settings-hook.git</repo>
     <issue>https://github.com/mircoc/cordova-plugin-settings-hook/issues</issue>
 
+    <hook type="before_plugin_install" src="src/installDependencies.js" />
     <hook src="src/updatePlatformConfig.js" type="after_prepare" />
     
 </plugin>

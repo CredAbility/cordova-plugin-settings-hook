@@ -1,0 +1,4 @@
+  "dependencies": {
+    "elementtree": "^0.1.7",
+    "plist": "^2.1.0"
+  }
