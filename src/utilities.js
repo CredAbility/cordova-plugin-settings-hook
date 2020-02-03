@@ -3,7 +3,7 @@
 var path = require("path");
 var fs = require("fs");
 
-var utils = require("../utilities");
+var utils = require("./utilities2");
 
 var constants = {
   platforms: "platforms",
